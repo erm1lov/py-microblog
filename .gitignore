@@ -10,6 +10,7 @@ __pycache__/
 bin
 lib
 include
+tmp
 
 # Mac OS X custom attribute files
 .DS_Store
