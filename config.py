@@ -13,3 +13,6 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Ioa877hNaskoquHAY67@pgsql.termilov.devsvcbanki.ru/flask"
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+
+# pagination
+POSTS_PER_PAGE = 2
