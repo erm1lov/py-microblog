@@ -18,3 +18,14 @@ SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 POSTS_PER_PAGE = 2
 WHOOSH_BASE = os.path.join(basedir, 'search.db')
 MAX_SEARCH_RESULTS = 50
+
+# email server
+MAIL_SERVER = 'smtp.googlemail.com'
+MAIL_PORT = 465
+MAIL_USE_TLS = False
+MAIL_USE_SSL = True
+MAIL_USERNAME = 'qwerty@gmail.com'
+MAIL_PASSWORD = 'qwerty'
+
+# administrator list
+ADMINS = ['timofey.ermilov@gmail.com']
