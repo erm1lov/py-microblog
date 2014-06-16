@@ -15,7 +15,7 @@ SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Ioa877hNaskoquHAY67@pgsql.termi
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 
 # pagination
-POSTS_PER_PAGE = 2
+POSTS_PER_PAGE = 10
 WHOOSH_BASE = os.path.join(basedir, 'search.db')
 MAX_SEARCH_RESULTS = 50
 
