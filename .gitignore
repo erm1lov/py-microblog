@@ -1,6 +1,7 @@
 flask
 virtualenv*
 *.pyc
+search.db
 
 __pycache__/
 *.py[cod]

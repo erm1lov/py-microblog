@@ -11,7 +11,7 @@ from config import POSTS_PER_PAGE, MAX_SEARCH_RESULTS
 from emails import follower_notification
 
 @app.route('/', methods = ['GET', 'POST'])
-@app.route('/index')
+@app.route('/index', methods = ['GET', 'POST'])
 @app.route('/index/<int:page>', methods = ['GET', 'POST'])
 @login_required
 def index(page = 1):
