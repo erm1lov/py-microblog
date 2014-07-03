@@ -2,6 +2,7 @@ flask
 virtualenv*
 *.pyc
 search.db
+.idea*
 
 __pycache__/
 *.py[cod]
