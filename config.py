@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 CSRF_ENABLED = True
 SECRET_KEY = 'you-will-never-guess'
 
@@ -29,3 +30,9 @@ MAIL_PASSWORD = 'qwerty'
 
 # administrator list
 ADMINS = ['timofey.ermilov@gmail.com']
+
+# available languages
+LANGUAGES = {
+    'en' : 'English',
+    'ru' : 'Русский',
+}
