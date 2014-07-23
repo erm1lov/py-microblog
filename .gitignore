@@ -3,6 +3,7 @@ virtualenv*
 *.pyc
 search.db
 .idea*
+*.sublime-*
 
 __pycache__/
 *.py[cod]
