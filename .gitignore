@@ -2,6 +2,8 @@ flask
 virtualenv*
 *.pyc
 search.db
+whoosh_index*
+
 .idea*
 *.sublime-*
 

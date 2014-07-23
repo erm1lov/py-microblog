@@ -36,3 +36,7 @@ LANGUAGES = {
     'en' : 'English',
     'ru' : 'Русский',
 }
+
+# microsoft translation service
+MS_TRANSLATOR_CLIENT_ID = 'flask2translator'
+MS_TRANSLATOR_CLIENT_SECRET = 'jDt2x14EnKoJaPwKkDP7E3PaoBDlw9/n25p7md747pE='
